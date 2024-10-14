@@ -28,7 +28,7 @@ int main() {
 		hasil = a * b;
 	}
 	else {
-		cout << "Operasi anda tidak sesuai!";
+		cout << "Operasi anda tidak sesuai!\n";
 	}
 		cout << "hasil dari perhitungan adalah: " << hasil << endl;
 
