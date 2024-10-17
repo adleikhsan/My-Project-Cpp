@@ -8,8 +8,46 @@ int main() {
 	cin >> n;
 	cout << endl;
 
+	// Pola ke 1
+	cout << "Pola ke-1 :\n\n";
 	for (int i = 0; i < n; i++) {
 		for (int j = 0; j <= i; j++) {
+			cout << "*";
+		}
+		cout << endl;
+	}
+	cout << endl;
+
+	// Pola ke 2
+	cout << "Pola ke-2 :\n\n";
+	for (int i = 0; i < n; i++) {
+		for (int k = n; k > i; k--) {
+			cout << "*";
+		}
+		cout << endl;
+	}
+	cout << endl;
+
+	// Pola ke 3
+	cout << "Pola ke-3 :\n\n";
+	for (int i = 1; i <= n; i++) {
+		for (int k = 1; k < i; k++) {
+			cout << " ";
+		}
+		for (int j = n; j >= i; j--) {
+			cout << "*";
+		}
+		cout << endl;
+	}
+	cout << endl;
+
+	// Pola ke 4
+	cout << "Pola ke-4 :\n\n";
+	for (int i = 1; i <= n; i++) {
+		for (int k = n; k > i; k--) {
+			cout << " ";
+		}
+		for (int j = 1; j <= i; j++) {
 			cout << "*";
 		}
 		cout << endl;
